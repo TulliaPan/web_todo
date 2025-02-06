@@ -11,6 +11,7 @@ def add_todo():
     functions.write_todos(todos)
 
 
+
 todos=functions.get_todos()
 st.title("To do app")
 st.subheader("this is an app where you can follow your to do")
