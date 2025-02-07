@@ -10,12 +10,11 @@ def add_todo():
     todos.append(todo)
     functions.write_todos(todos)
 
-
 todos=functions.get_todos()
 st.title("To do app")
 st.subheader("this is an app where you can follow your to do")
 st.write("this app increse your producitvityd,check when completed")
-
+st.write("ciao Las")
 for i,todo in enumerate(todos):
     check=st.checkbox(todo,key=todo)
     if check:
